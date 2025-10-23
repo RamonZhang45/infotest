@@ -115,3 +115,11 @@ img {
   height: auto;
 }
 
+.thanks-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* 或其他高度 */
+}
+
+
