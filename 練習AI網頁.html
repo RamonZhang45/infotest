@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>張訓倉（Ramon Zhang）— 前端工程師</title>
+  <meta name="description" content="張訓倉（Ramon Zhang），前端工程師。熱愛設計與開發兼具美感與效能的網站，閒暇時喜歡拍照與旅遊。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="name">張訓倉（Ramon Zhang）</h1>
+      <p class="role">前端工程師（Front-end Developer）</p>
+    </div>
+  </header>
+
+  <main class="site-main container">
+    <section class="profile-photo" aria-labelledby="profile-photo-heading">
+      <figure>
+        <img
+          src="myphoto.jpg"
+          alt="張訓倉的頭像"
+          width="240"
+          height="240"
+        />
+      </figure>
+    </section>
+
+    <section class="about" aria-labelledby="about">
+      <h2 id="about">自我介紹</h2>
+      <p>嗨，我是張訓倉，熱愛設計與開發兼具美感與效能的網站。閒暇時喜歡拍照與旅遊。</p>
+    </section>
+
+    <!-- 🔘 新增按鈕區域 -->
+    <section class="thanks-button" aria-labelledby="thanks">
+      <button id="showMessageButton">顯示感謝訊息</button>
+    </section>
+
+    <!-- 💬 顯示感謝訊息用的區域 -->
+    <div id="thankYouMessage" style="display: none; text-align: center; margin-top: 20px;">
+      謝謝瀏覽我的名片！
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <section class="contact-info" aria-labelledby="contact">
+        <h2 id="contact">聯絡資訊</h2>
+        <ul>
+          <li>Email：<a href="mailto:xunchangzhang56541@hotmail.com.tw">xunchangzhang@hotmail.com.tw</a></li>
+          <li>電話：<a href="tel:+886-352-235-596">+886-352-235-596</a></li>
+        </ul>
+      </section>
+
+      <section class="social-links" aria-labelledby="social">
+        <h2 id="social">社群連結</h2>
+        <nav aria-label="社群連結">
+          <ul>
+            <li><a href="https://instagram.com/xunchangzhang56541" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/xunchangzhang56541" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/xunchangzhang56541" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </footer>
+
+  <!-- 📜 引入 JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

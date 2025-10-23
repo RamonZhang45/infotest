@@ -1,0 +1,117 @@
+/* Reset 與基本樣式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body body {
+  font-family: 'Segoe UI', 'Noto Sans TC', sans-serif;
+  line-height: 1.6;
+  background-color: #164fa1;
+  color: #25dadb;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  border-radius: 50%;
+}
+
+/* 容器 */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+.site-header {
+  background-color: #ffea15f7;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.site-header .name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.site-header .role {
+  font-size: 1.2rem;
+  color: #25dadb;
+}
+
+/* Main */
+.site-main {
+  padding: 2rem 0;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-photo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #2e2e3e;
+  color: #f0f0f0;
+  padding: 2rem 0;
+  font-size: 0.95rem;
+}
+
+.site-footer h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.site-footer li {
+  margin-bottom: 0.5rem;
+}
+
+.site-footer a {
+  color: #91cdf2;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+}
+
+.profile-photo figure {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-photo img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
